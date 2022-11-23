@@ -33,7 +33,7 @@ TABLE-01 EXITATION TABLE FOR H BRIDGE
 As shown in the circuit diagram we need only 3 Arduino terminal pins, pin 8 is for the push button which toggles the motor direction of rotation. Pins 9 and 10 are PWM signal outputs, at any time there is only 1 active PWM, this allows us to control the direction as well as the speed by varying the duty cycle of the PWM signal. The active PWM pin decides the motor direction of rotation (one at a time, the other output is logic 0).
 
 ### PRGORAM 
-###NORMAL RPM:
+NORMAL RPM:
 ```
 const int motorpin1 = 5;
 const int motorpin2 = 6;
@@ -53,7 +53,7 @@ void loop()
 }
 ```
 
-###TO CONTROL RPM:
+TO CONTROL RPM:
 ```
 #define motorIn1 5
 #define motorIn2 6
@@ -86,23 +86,23 @@ void clockwise(int speed)
 
 
 ### OUTPUT
-###CIRCUIT DIAGRAM:
+CIRCUIT DIAGRAM:
 
 ![image](https://user-images.githubusercontent.com/114572171/203603475-b7df36fe-9908-42dd-a753-e25b1001bc7b.png)
 
-###CLOCKWISE:
+CLOCKWISE:
 
 ![image](https://user-images.githubusercontent.com/114572171/203603881-e9bba736-a946-42aa-80fd-2616e2fbe729.png)
 
-###GRAPH:
+GRAPH:
 
 ![image](https://user-images.githubusercontent.com/114572171/203604174-953c9b30-bda9-4431-80cc-af4fe0948fad.png)
 
-###COUNTER CLOCKWISE:
+COUNTER CLOCKWISE:
 
 ![image](https://user-images.githubusercontent.com/114572171/203604348-88e3155e-db3b-4621-8acb-bc5049278530.png)
 
-###GRAPH:
+GRAPH:
 
 ![image](https://user-images.githubusercontent.com/114572171/203604496-92aca960-f83b-4d60-b1e5-e26deb6bc782.png)
 
