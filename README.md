@@ -1,4 +1,4 @@
-# Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino
+# Experiment-no-6-DC-Motor-Speed-Control-Using-Arduino
 
 ### AIM :
 
