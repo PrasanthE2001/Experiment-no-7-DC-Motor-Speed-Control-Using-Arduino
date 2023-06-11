@@ -27,8 +27,8 @@ As shown in the circuit diagram we need only 3 Arduino terminal pins, pin 8 is f
 
 ### PRGORAM 
 ```
-DEVELOPED BY:AMURTHA VAAHINI
-REG.NO: 212222240008
+DEVELOPED BY: Prasanth E
+REG.NO: 212221233002
 #define m1 2
 #define m2 3
 
